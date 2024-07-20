@@ -6,7 +6,7 @@ Extender for Fooocus
 (Любые заимствования кода без указания авторства и разрешения автора считается плагиатом и неуважением к автору - если такие найдутся, то будут здесь указаны)
 
 
-<a href="https://colab.research.google.com/github/shaitanzx/Fooocus_extend/blob/main/Fooocus_extend.ipynb" rel="nofollow"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+<a href="https://colab.research.google.com/github/shaitanzx/Fooocus_extend/blob/main/Fooocus_extend_wo_update.ipynb" rel="nofollow"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
 ![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/9e5a8088-5a70-4898-a86d-b5b4cdf5cd27)
 ![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/e59e3400-0d75-4428-bbee-46e7011dbaa1)
