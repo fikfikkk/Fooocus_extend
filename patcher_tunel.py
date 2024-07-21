@@ -23,12 +23,12 @@ def iframe_thread(port):
         if result == 0:
             break
         sock.close()
-    print('\nFooocus finished loading, trying to launch cloudflared (if it gets stuck here cloudflared is having issues)\n')
-    p = subprocess.Popen(['cloudflared', 'tunnel', '--url', 'http://127.0.0.1:{}'.format(port)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    print(\"\nFooocus finished loading, trying to launch cloudflared (if it gets stuck here cloudflared is having issues)\n\")
+    p = subprocess.Popen([\"cloudflared\", \"tunnel\", \"--url\", \"http://127.0.0.1:{}\".format(port)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     for line in p.stderr:
         l = line.decode()
-        if 'trycloudflare.com in l:
-            print('This is the URL to access Fooocus:', l[l.find('https'):], end='')
+        if \"trycloudflare.com\" in l:
+            print(\"This is the URL to access Fooocus:\", l[l.find(\"https\"):], end='')
 
 port = 7865 # Replace with the port number used by Fooocus
 threading.Thread(target=iframe_thread, daemon=True, args=(port,)).start()\n"""],
