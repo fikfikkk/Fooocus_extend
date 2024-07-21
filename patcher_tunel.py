@@ -90,7 +90,7 @@ def search_and_path():
 
 def start_path():
     print("""=== Script for patching file webui.py for Fooocus ===
-> Extension: 'Extention Panel'
+> Extension: 'Tunnel Patch'
 > Author: Shahmatist/RMDA
 === ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ===""")
 
