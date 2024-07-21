@@ -23,7 +23,7 @@ def iframe_thread(port):
         if result == 0:
             break
         sock.close()
-    print(\"\nFooocus finished loading, trying to launch cloudflared (if it gets stuck here cloudflared is having issues)\n\")
+    print(\"\\nFooocus finished loading, trying to launch cloudflared (if it gets stuck here cloudflared is having issues)\\n\")
     p = subprocess.Popen([\"cloudflared\", \"tunnel\", \"--url\", \"http://127.0.0.1:{}\".format(port)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     for line in p.stderr:
         l = line.decode()
