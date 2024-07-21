@@ -16,16 +16,13 @@ Extender for Fooocus
   </tr>
 </table>
 
+![image](https://github.com/user-attachments/assets/468487b8-8d4e-454c-ba92-1c9e5b60feb7)
+![image](https://github.com/user-attachments/assets/d820cbbe-dd26-43fa-8ff7-79ece4733f69)
+![image](https://github.com/user-attachments/assets/02cfefd2-7ab4-45ce-9a28-38cba008897c)
+![image](https://github.com/user-attachments/assets/0dae1b83-d393-4601-ba7a-663a7e263c1c)
+![image](https://github.com/user-attachments/assets/d8da2d79-73ea-476c-8c72-af4ec8351e08)
+![image](https://github.com/user-attachments/assets/6b3cf591-b857-448c-bb8a-cf3f78429b11)
 
-
-
-
-![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/9e5a8088-5a70-4898-a86d-b5b4cdf5cd27)
-![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/e59e3400-0d75-4428-bbee-46e7011dbaa1)
-![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/5211a026-0eb9-4838-b650-8aeeed097e9b)
-![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/bfc44a92-dc55-4896-8e9d-ca62c36a664d)
-![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/db746844-fae7-4e16-91f9-881df70a3c77)
-![image](https://github.com/shaitanzx/Fooocus_extend/assets/162459965/a117eea0-8278-4a03-b2d6-8f5d21ce6bb7)
 
 
 Сlick on the picture below to watch the video of previouse version
