@@ -366,7 +366,7 @@ def get_task_batch(*args):
                           outputs=[generate_button,batch_stop, batch_start,status_batch]) \\
               .then(lambda: (gr.update(value=f'Add to queue ({len([name for name in os.listdir(batch_path) if os.path.isfile(os.path.join(batch_path, name))])})')), outputs=[add_to_queue])
         batch_stop.click(stop_clicked_batch, queue=False, show_progress=False, _js='cancelGenerateForever')\n"""]
-
+]    
 
 def search_and_path():
     isOk = 0
