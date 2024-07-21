@@ -9,7 +9,7 @@ DIR_FOOOCUS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Fooocus"
 PATH_TO_WEBUI = os.path.join(DIR_FOOOCUS, "webui.py")
 
 PATH_OBJ_DATA_PATCHER = [
-    ["# dump_default_english_config()\n","import subprocess
+    ["# dump_default_english_config()\n","""import subprocess
 import threading
 import time
 import socket
@@ -30,7 +30,7 @@ def iframe_thread(port):
             print("This is the URL to access Fooocus:", l[l.find("https"):], end='')
 
 port = 7865 # Replace with the port number used by Fooocus
-threading.Thread(target=iframe_thread, daemon=True, args=(port,)).start()\n"],
+threading.Thread(target=iframe_thread, daemon=True, args=(port,)).start()\n"""],
 
 ]
 
