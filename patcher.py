@@ -333,8 +333,7 @@ def get_task_batch(*args):
         adv_trans.change(show_viewtrans, inputs=adv_trans, outputs=[viewstrans])\n"""],
 
 ["        ctrls += enhance_ctrls\n","        ctrls += [translate_enabled, translate_automate, srcTrans, toTrans]\n"],
-["            .then(fn=generate_clicked, inputs=currentTask, outputs=[progress_html, progress_window, progress_gallery, gallery]) \\\n","""
-            .then(fn=seeTranlateAfterClick, inputs=[adv_trans, prompt, negative_prompt, srcTrans, toTrans], outputs=[p_tr, p_n_tr]) \\\n"""],
+["            .then(fn=generate_clicked, inputs=currentTask, outputs=[progress_html, progress_window, progress_gallery, gallery]) \\\n","""            .then(fn=seeTranlateAfterClick, inputs=[adv_trans, prompt, negative_prompt, srcTrans, toTrans], outputs=[p_tr, p_n_tr]) \\\n"""],
 ["            .then(fn=lambda: None, _js='playNotification').then(fn=lambda: None, _js='refresh_grid_delayed')\n","""
         ctrls_batch = ctrls[:]
         ctrls_batch.append(ratio)
