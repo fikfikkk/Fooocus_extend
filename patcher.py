@@ -11,16 +11,22 @@ PATH_TO_WEBUI = os.path.join(DIR_FOOOCUS, "webui.py")
 PATH_OBJ_DATA_PATCHER = [
     ["import copy\n","import requests\n"],
     ["import launch\n","""import re
-import urllib.request\n"""],
+import urllib.request
+import zipfile
+import threading
+import math
+import numpy as np\n"""],
 
 
     ["from modules.auth import auth_enabled, check_auth\n","""from modules.module_translate import translate, GoogleTranslator
 from urllib.parse import urlparse, parse_qs, unquote
 from modules.model_loader import load_file_from_url
 from rembg import remove
-from PIL import Image\n"""],
-    ["def get_task(*args):\n", """    # Prompt translate AlekPet
-    argsList = list(args)
+from PIL import Image
+from gradio.components import label\n"""],
+
+    
+    ["def get_task(*args):\n", """    argsList = list(args)
     toT = argsList.pop() 
     srT = argsList.pop() 
     trans_automate = argsList.pop() 
@@ -33,7 +39,7 @@ from PIL import Image\n"""],
             argsList[3] = negative
             
     args = tuple(argsList)
-    # end -Prompt translate AlekPet\n"""],
+\n"""],
     [
         "            desc_tab.select(lambda: 'desc', outputs=current_tab, queue=False, _js=down_js, show_progress=False)\n",
         """            def downloader(civitai_api_key,downloader_checkpoint,downloader_loras,downloader_embd):
