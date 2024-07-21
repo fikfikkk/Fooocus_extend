@@ -6,7 +6,8 @@ import datetime
 import shutil
 
 
-PATH_TO_WEBUI = "/content/Fooocus_extend/Fooocus/webui.py"
+DIR_FOOOCUS = "/content/Fooocus_extend"
+PATH_TO_WEBUI = os.path.join(DIR_FOOOCUS, "webui.py")
 
 PATH_OBJ_DATA_PATCHER = [
     ["# dump_default_english_config()\n","""import subprocess
