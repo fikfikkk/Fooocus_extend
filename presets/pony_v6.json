@@ -45,15 +45,15 @@
     "default_inpaint_engine_version": "None",
     "checkpoint_downloads": {
         "ponyDiffusionV6XL.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL.safetensors",
-        "astroLanceXL_astrolance2.safetensors": "https://civitai.com/api/download/models/591288?type=Model&format=SafeTensor&size=pruned&fp=bf16",
-        "raemoraXL_v30.safetensors": "https://civitai.com/api/download/models/690258?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "astroLanceXL_astrolance2.safetensors": "https://civitai.com/api/download/models/591288?token=6a73b6814c838d779e7c7b9d1067be97",
+        "raemoraXL_v30.safetensors": "https://civitai.com/api/download/models/690258?token=6a73b6814c838d779e7c7b9d1067be97"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "splitspositionsPonyXL_v10DORA.safetensors": "https://civitai.com/api/download/models/529754?type=Model&format=SafeTensor"
+        "splitspositionsPonyXL_v10DORA.safetensors": "https://civitai.com/api/download/models/529754?token=6a73b6814c838d779e7c7b9d1067be97"
     },
     "vae_downloads": {
         "ponyDiffusionV6XL_vae.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL_vae.safetensors",
-        "xlVAEC_c91.safetensors": "https://civitai.com/api/download/models/360299?type=Model&format=SafeTensor"
+        "xlVAEC_c91.safetensors": "https://civitai.com/api/download/models/360299?token=6a73b6814c838d779e7c7b9d1067be97"
     }
 }
