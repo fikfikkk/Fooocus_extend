@@ -2,7 +2,7 @@
     "default_model": "ponyDiffusionV6XL.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
-    "default_vae": "ponyDiffusionV6XL_vae.safetensors",
+    "default_vae": "xlVAEC_c91.safetensors",
     "default_loras": [
         [
             true,
@@ -50,7 +50,10 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "splitspositionsPonyXL_v10DORA.safetensors": "https://civitai.com/api/download/models/529754?token=6a73b6814c838d779e7c7b9d1067be97"
+        "splitspositionsPonyXL_v10DORA.safetensors": "https://civitai.com/api/download/models/529754?token=6a73b6814c838d779e7c7b9d1067be97",
+        "phillipsmitheros_style_pony.safetensors": "https://civitai.com/api/download/models/660032?token=6a73b6814c838d779e7c7b9d1067be97",
+        "crystalcheeseXL.safetensors": "https://civitai.com/api/download/models/694382?token=6a73b6814c838d779e7c7b9d1067be97",
+        "sleepyGimpPonyxlStyle_v10.safetensors": "https://civitai.com/api/download/models/688980?token=6a73b6814c838d779e7c7b9d1067be97"
     },
     "vae_downloads": {
         "ponyDiffusionV6XL_vae.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL_vae.safetensors",
